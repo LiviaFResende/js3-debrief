@@ -9,6 +9,16 @@
 // filling the blanks with the relevant values - (remember to do the above using the ‘this’ keyword)
 // c) Outside the class, Call the function ‘displayInfo’
 
+const school = {
+    name: "Hogwarts",
+    location: "Unknown",
+    established: "the 10th Century",
+    displayInfo() {
+        console.log(`My school ${this.name} was stabished in ${this.established} at ${this.location}`)
+    }
+}
+console.log(school)
+
 // Classes
 
 // We will now create a template for making school objects! You may want to refer to Class Syntax: https://www.w3schools.com/js/js_classes.asp ;
